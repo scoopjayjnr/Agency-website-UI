@@ -380,7 +380,7 @@ nav a {
 }
 
 .tim-left img {
-  width: 70%;
+  width: 90%;
   height: auto;
   padding-left: 2rem;
 }
@@ -413,4 +413,121 @@ nav a {
 .tim-image-text h4 {
   color: var(--shade3-color);
   font-weight: 400;
+}
+
+.care {
+  width: 50%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.care h1 {
+  text-align: center;
+  color: var(--dark-grey-color);
+  padding-bottom: 1rem;
+}
+
+.care p {
+  max-width: 800px;
+  text-align: center;
+  color: var(--grey-color);
+  padding-bottom: 1.5rem;
+}
+
+.carer {
+  position: relative;
+  display: flex;
+  grid-template-columns: repeat(3 1fr);
+  align-items: center;
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+
+.carer .care-section img {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  /* background: var(--sliver-color);
+  padding: 2rem 2.5rem;
+  border-radius: 1rem; */
+}
+
+.care-text {
+  position: absolute;
+  bottom: 8%;
+  margin-left: 2rem;
+  background: var(--sliver-color);
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.care-text h3 {
+  max-width: 220px;
+  color: var(--dark-grey-color);
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 0.8rem;
+}
+
+.care-text p {
+  text-align: center;
+  color: var(--shade1-color);
+  padding-bottom: 1rem;
+}
+
+.h-text {
+  background: var(--sliver-color);
+  padding: 2rem 3.5rem;
+  border-radius: 1rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.h-text h1 {
+  text-align: center;
+  font-size: 3rem;
+  /* max-width: 1000px; */
+  color: var(--dark-grey-color);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  padding: 2rem 8%;
+  background: #263238;
+  color: var(--sliver-color);
+}
+
+.footer-container {
+  display: flex;
+  padding: 1rem 4rem;
+  grid-template-columns: repeat(2 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-left h2 {
+  color: var(--sliver-color);
+  padding-bottom: 1rem;
+}
+
+.footer-right {
+  display: flex;
+  grid-template-columns: repeat(3 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-first h4 {
+  padding-bottom: 1rem;
+}
+
+.footer-first li a {
+  color: var(--sliver-color);
 }
