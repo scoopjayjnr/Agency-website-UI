@@ -483,8 +483,6 @@ nav a {
   background: var(--sliver-color);
   padding: 2rem 3.5rem;
   border-radius: 1rem;
-  display: block;
-  margin: 0 auto;
 }
 
 .h-text h1 {
@@ -495,6 +493,12 @@ nav a {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 2rem;
+}
+
+.h-text button {
+  display: block;
+  margin: 0 auto;
 }
 
 footer {
@@ -530,4 +534,128 @@ footer {
 
 .footer-first li a {
   color: var(--sliver-color);
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    .btn {
+      display: none;
+    }
+  }
+
+  .hero-section {
+    display: block;
+  }
+
+  .hero-section .left h1 {
+    text-align: center;
+  }
+
+  .hero-section .left .hero-paragragh {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 500px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-section .register {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .hero-section .right {
+    padding-top: 2rem;
+  }
+
+  .client-section .logos {
+    display: inline-block;
+    /* grid-template-columns: repeat(2 1fr);*/
+  }
+
+  .community-info {
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .community-content {
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+
+  .community-text {
+    font-size: 1rem;
+  }
+
+  .pixel-content {
+    display: block;
+  }
+
+  .pixel-content img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .pixel-info h1 {
+    text-align: center;
+  }
+
+  .pixel-info p {
+    text-align: center;
+  }
+
+  .pixel-info .learn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .local-content {
+    display: block;
+  }
+
+  .local-left h1 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+
+  .local-left p {
+    align-items: center;
+    padding-bottom: 1rem;
+    margin-left: 4rem;
+    padding-bottom: 1rem;
+  }
+
+  .local-right {
+    margin-left: 5rem;
+  }
+
+  .site-footer {
+    display: block;
+  }
+
+  .site-left {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 1.5rem;
+  }
+
+  .site-right h1 {
+    text-align: center;
+  }
+
+  .site-right p {
+    text-align: center;
+  }
+
+  .site-right .learn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .tim-sec {
+    display: block;
+  }
 }

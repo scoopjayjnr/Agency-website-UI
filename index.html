@@ -24,17 +24,29 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
       <nav>
         <a href="#">Nexcent</a>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#feature">Features</a></li>
-          <li><a href="#testiomonals">Testimonals</a></li>
-          <li><a href="#faq">FAQ</a></li>
+          <li data-aos="fade-down" data-aos-duration="1000">
+            <a href="#home">Home</a>
+          </li>
+          <li data-aos="fade-down" data-aos-duration="1500">
+            <a href="#services">Services</a>
+          </li>
+          <li data-aos="fade-down" data-aos-duration="2000">
+            <a href="#feature">Features</a>
+          </li>
+          <li data-aos="fade-down" data-aos-duration="2500">
+            <a href="#testiomonals">Testimonals</a>
+          </li>
+          <li data-aos="fade-down" data-aos-duration="3000">
+            <a href="#faq">FAQ</a>
+          </li>
         </ul>
         <div class="btn">
           <button class="login">Login</button>
@@ -46,13 +58,25 @@
     <section>
       <div class="hero-section">
         <div class="left">
-          <h1 class="header">Lessons and insights <span>from 8 years</span></h1>
-          <p class="hero-paragragh">
+          <h1 data-aos="fade-right" data-aos-duration="1500" class="header">
+            Lessons and insights <span>from 8 years</span>
+          </h1>
+          <p
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            class="hero-paragragh"
+          >
             Where to grow your business as a photographer: site or social media?
           </p>
-          <button class="register">Register</button>
+          <button
+            data-aos="fade-right"
+            data-aos-duration="2500"
+            class="register"
+          >
+            Register
+          </button>
         </div>
-        <div class="right">
+        <div data-aos="fade-left" data-aos-duration="2000" class="right">
           <img src="assest/hero.png" alt="illustration" />
         </div>
       </div>
@@ -64,7 +88,12 @@
         <p>We have been working with some Fortune 500+ clients</p>
       </div>
       <div class="logos">
-        <img src="assest/Logo 1.png" alt="" />
+        <img
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          src="assest/Logo 1.png"
+          alt=""
+        />
         <img src="assest/Logo 2.png" alt="" />
         <img src="assest/Logo 3.png" alt="" />
         <img src="assest/Logo 4.png" alt="" />
@@ -321,5 +350,10 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
